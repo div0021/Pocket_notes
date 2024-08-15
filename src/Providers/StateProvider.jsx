@@ -7,7 +7,7 @@ const StateProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [group, setGroup] = useState(JSON.parse(localStorage.getItem('pocket-notes')) || []);
   const [selectedGroup, setSelectedGroup] = useState("");
-  const [mobileSidebar, setMobileSidebar] = useState(false);
+  const [mobileSidebar, setMobileSidebar] = useState(true);
 
   const open = () => {
     setIsOpen(true);
