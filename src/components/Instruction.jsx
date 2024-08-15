@@ -11,7 +11,7 @@ const Instruction = () => {
     <h1 className=' text-4xl font-bold'>
         Pocket Notes
     </h1>
-    <p className='px-3'>
+    <p className='px-3 lg:px-0'>
     Send and receive messages without keeping your phone online. <br />
     Use Pocket Notes on up to 4 linked devices and 1 mobile phone
     </p>
